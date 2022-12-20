@@ -13,14 +13,14 @@
     "db:migration": "db-migrate --sql-file --config ./db/config.json --migrations-dir ./db/migrations"
   },
   "devDependencies": {
-    "@types/aws-lambda": "^8.10.64",
-    "@typescript-eslint/eslint-plugin": "^4.6.1",
-    "@typescript-eslint/parser": "^4.6.1",
-    "db-migrate": "^0.11.11",
+    "@types/aws-lambda": "^8.10.109",
+    "@typescript-eslint/eslint-plugin": "^5.47.0",
+    "@typescript-eslint/parser": "^5.47.0",
+    "db-migrate": "^0.11.13",
     "db-migrate-pg": "^1.2.2",
-    "eslint": "^7.12.1",
-    "serverless": "^2.9.0",
-    "serverless-offline": "^6.8.0",
-    "typescript": "^4.0.5"
+    "eslint": "^8.30.0",
+    "serverless": "^3.25.1",
+    "serverless-offline": "^12.0.3",
+    "typescript": "^4.9.4"
   }
 }
